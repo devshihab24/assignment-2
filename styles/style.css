@@ -12,7 +12,10 @@
 /* common design */
 .full-size{
     width: 100%;
-    background-color: rgb(17, 17, 17);
+    background-color: black;
+}
+.banner{
+    background-color:rgb(17, 17, 17);
 }
 .disply-flex{
     display: flex;
