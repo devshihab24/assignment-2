@@ -213,6 +213,47 @@ nav > ul > li{
     height: 330px;
     width: 250px;
 }
+
+/* third page design */
+
+#runner-container{
+    /* border: 2px solid red; */
+    height: 400px;
+    margin: 100px auto;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+#runner-content{
+    height: 300px;
+    width: 400px;
+    padding: 28px;
+    /* border: 2px solid red; */
+}
+#runner-container img{
+    height: 330px;
+    width: 300px;
+    border-radius: 18px;
+    margin: 35px 40px;
+    /* border: 2px solid green; */
+}
+#runner-container h3{
+    height: 110px;
+    font-size: 3rem;
+    font-weight: 900;
+    /* border: 2px solid white; */
+    margin: 30px 0px;
+}
+#runner-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
 /* design for small device */
 
 @media screen and (max-width: 576px) {
@@ -225,7 +266,8 @@ nav > ul > li{
         width: 90%;
     }
     .header-content,
-    .img-section{
+    .img-section,
+    #runner-container{
         flex-direction: column;
     }
     .primary-btn{
@@ -309,4 +351,29 @@ nav > ul > li{
         width: 350px;
     }
     
+    /* third page design */
+    #runner-container{
+        height: 631px;
+        margin: 30px auto;
+        /* width: 100%; */
+    }
+    #runner-content{
+        margin: 0;
+        width: 80%;
+    }
+    #runner-container h3{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    #runner-btn{
+        margin: 0px;
+    }
+    #runner-container img{
+        width: 90%;
+        height: 200px;
+        margin:0 auto;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
 }
