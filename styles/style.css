@@ -348,6 +348,10 @@ table{
     .average-size{
         width: 90%;
     }
+    .bmi-section{
+        width: 100%;
+        margin-bottom: 20px;
+    }
     .header-content,
     .img-section,
     #runner-container,
