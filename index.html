@@ -30,19 +30,19 @@
             <div class="content-1 color-1">
                 <h1>Get body in <i><span id="miama-font">shape</span></i> & stay healthy</h1>
                 <p id="header-para" class="color-2">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                <button class="primary-btn">Join Club Now!</button>
-                <button id="secondary-btn" class="primary-btn">Download App</button>
+                <button class="primary-btn mouse">Join Club Now!</button>
+                <button id="secondary-btn" class="primary-btn mouse">Download App</button>
             </div>
             <div id="img-content" class="content-2">
                 <img src="images/Images 2.png" alt="">
                 <div class="disply-flex">
-                    <div class="video" id="paid">
+                    <div class="video mouse" id="paid">
                         <i id="play-btn" class="fa-solid fa-circle-play"></i>
                         <h4 class="color-1">350+</h4>
                         <p class="color-2">Video tutorial</p>
                     </div>
                 </div>
-                <div class="video" id="free">
+                <div class="video mouse" id="free">
                     <h4 class="color-1">500+</h2>
                     <p class="color-2">Free Workout Videos</p>
                 </div>
@@ -96,9 +96,62 @@
             <h3 class="color-1">Run an Extra 
                 Mile Easily</h3>
             <p class="color-2">Health benefits of running and joggingstrengthen muscles. improve cardiovascular fitness. burn plenty of kilojoules. help maintain a healthy weight.</p>
-            <button id="runner-btn" class="primary-btn">Join Now</button>
+            <button id="runner-btn" class="primary-btn mouse">Join Now</button>
         </div>
-        <img src="images/runner.png" alt="">
+        <img src="images/run.jpg" alt="">
+    </section>
+
+    <!-- BMI Calculator -->
+
+    <section class="full-size bmi-section">
+        <div id="bmi-calc" class="average-size disply-flex">
+            <div class="table-container">
+                <h2 class="color-1">BMI Calculator Chart</h2>
+                <table class="color-2">
+                    <tr>
+                        <td class="color-1">BMI</td>
+                        <td class="color-1">Weight Status</td>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="calculate-section">
+                <h3 class="color-1">Calculate your BMI</h3>
+                <p class="color-2"> BMI is moderately to strongly associated with other measures that capture the amount, location, and distribution of body fat.</p>
+                <div id="bmi-information">
+                    <input class="input mouse" type="text" placeholder="Height/cm">
+                    <input class="input mouse" type="text" placeholder="Weight/kg">
+                    <input class="input mouse" type="text" placeholder="Age">
+                    <select class="input mouse" name="" id="first-selection">
+                        <option value="sex">Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <select class="input mouse" name="" id="option">
+                    <option value="none">Select an activity factor</option>
+                    <option value="light work">Light Work</option>
+                    <option value="diligent">Diligent</option>
+                    <option value="hard work">Hard-work</option>
+                </select>
+                <button class="primary-btn mouse">claculate</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>
