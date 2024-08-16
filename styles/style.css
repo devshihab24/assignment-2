@@ -481,6 +481,68 @@ a{
     color: blue;
 }
 
+/* footer section design */
+
+#footer{
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    height: 250px;
+    margin: 20px auto;
+    padding: 110px 0px 110px 0px;
+    background: rgba(255, 255, 255, 0.1);
+}
+#footer-section{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 250px;
+    
+}
+#footer-section > div{
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 360px;
+}
+#footer-section > div > h1{
+    /* border: 2px solid tomato; */
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: 900;
+}
+#fitness-paragraph{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+#footer-section > div > h3{
+    font-size: 2rem;
+    font-weight: 700;
+    height: 35px;
+    padding: 0;
+}
+.common-para{
+    height: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.copy-right{
+    /* border: 2px solid green; */
+    font-size: 1.1rem;
+    width: 350px;
+    margin: 35px auto;
+    margin-bottom: 0;
+}
+#footer > hr{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* design for small device */
 
 @media screen and (max-width: 576px) {
@@ -713,5 +775,19 @@ a{
     }
     a{
         color: rgb(71, 197, 255);
+    }
+    /* footer section design */
+
+    #footer{
+        height: 800px;
+    }
+    #footer-section{
+        grid-template-columns: repeat(1, 1fr);
+        height: 750px;
+        
+    }
+    .copy-right{
+        width: 90%;
+        margin: 45px auto;
     }
 }
