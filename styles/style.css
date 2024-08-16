@@ -281,6 +281,24 @@ nav > ul > li{
 
 /* BMI Calculator section design */
 
+.about-bmi-calculator{
+    /* border: 2px solid red; */
+    height: 120px;
+    width: 670px;
+    margin: 0 auto;
+}
+.about-bmi-calculator h3{
+    font-size: 2.875rem;
+    font-weight: 900;
+    /* border: 2px solid white; */
+    padding: 0;
+    margin: 0;
+}
+.about-bmi-calculator > p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    /* border: 2px solid green; */
+}
 .bmi-section{
     background: rgb(34, 34, 34);
     height: 480px;
@@ -337,12 +355,82 @@ table{
     font-weight: 700;
 }
 
+/* trainer section desing */
+
+#trainer-heading{
+    width: 670px;
+    height: 120px;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+}
+#trainer-heading h2{
+    font-size: 2.9rem;
+    font-weight: 900;
+    margin: 0;
+}
+#trainer-img-section{
+    gap: 20px;
+    padding: 25px;
+}
+.trainer-img{
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid white; */
+    background-size: cover;
+    margin: auto;
+    
+    filter: brightness(0.8);
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.trainer-img h5{
+    /* border: 2px solid red; */
+    font-size: 1rem;
+    margin-top: 290px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-weight: 500;
+
+}
+.trainer-img p{
+    /* border: 2px solid gray; */
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 800px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid green; */
+}
+#trainer-1{
+    background-image: url(../images/trainer1.png);
+}
+#trainer-2{
+    background-image: url(../images/trainer2.png);
+}
+#trainer-3{
+    background-image: url(../images/trainer3.png);
+}
+#trainer-4{
+    background-image: url(../images/trainer7.png);
+}
+#trainer-5{
+    background-image: url(../images/trainer5.png);
+}
+#trainer-6{
+    background-image: url(../images/trainer6.png);
+}
 /* design for small device */
 
 @media screen and (max-width: 576px) {
     /* first page design */
     .full-size{
-        width: 95%;
+        width: 98%;
+        /* border: 2px solid red; */
         margin: 0 auto;
     }
     .average-size{
@@ -358,6 +446,9 @@ table{
     #bmi-calc
     {
         flex-direction: column;
+    }
+    .header nav > ul{
+        border: none;
     }
     .primary-btn{
         width:45%;
@@ -467,7 +558,13 @@ table{
     }
 
     /* bmi calculator */
-
+    
+    .about-bmi-calculator{
+        width: 90%;
+    }
+    .about-bmi-calculator > p{
+        width: 100%;
+    }
     .bmi-section{
         height: 800px;
     }
@@ -491,6 +588,21 @@ table{
         width: 215px;
     }
     #option{
-        width: 97%;
+        width: 101%;
+    }
+
+    /* trainer section design */
+
+    #trainer-img-section{
+        height: 2250px;
+    }
+    .display-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #trainer-heading{
+        width: 100%;
+    }
+    #trainer-heading p{
+        width: 100%;
     }
 }
