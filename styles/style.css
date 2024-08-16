@@ -697,13 +697,13 @@ a{
     }
     .input{
         height: 36px;
-        width: 200px;
+        width: 12.5rem;
         /* margin:10px 10px 10px 0px; */
         border-radius: 8px;
         padding-left: 10px;
     }
     #first-selection{
-        width: 215px;
+        width: 13.4375rem;
     }
     #option{
         width: 101%;
@@ -712,7 +712,16 @@ a{
     /* trainer section design */
 
     #trainer-img-section{
-        height: 2250px;
+        height: 140.625rem;
+    }
+    #trainer-img-section{
+        gap: 20px;
+        padding: 25px;
+    }
+    .trainer-img{
+        /* border: 2px solid red; */
+        height: 21.875rem;
+        width: 90%;
     }
     .display-grid{
         grid-template-columns: repeat(1, 1fr);
@@ -722,6 +731,9 @@ a{
     }
     #trainer-heading p{
         width: 100%;
+    }
+    #option{
+        width: 93%;
     }
 
     /* Login form design */
