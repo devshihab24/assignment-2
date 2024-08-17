@@ -51,7 +51,7 @@ p{
 }
 .input{
     height: 40px;
-    width: 300px;
+    width: 90%;
     margin:10px 10px 10px 0px;
     border-radius: 8px;
     color: rgba(255, 255, 255, 0.4);
@@ -167,7 +167,7 @@ nav > ul > li{
 }
 #free{
     margin-top: -420px;
-    margin-left: 220px;
+    margin-left: 16%;
 }
 #paid{
     margin-top: -115px;
@@ -331,7 +331,8 @@ table{
     margin-top: 70px;
 }
 .calculate-section{
-    width: 55%;
+    width: 45%;
+    margin-left: 10%;
     /* border: 2px solid red; */
 }
 .calculate-section h3{
@@ -344,7 +345,10 @@ table{
     /* border: 2px solid green; */
 }
 #option{
-    width: 95%;
+    width: 97%;
+}
+#first-selection{
+    width: 94%;
 }
 .calculate-section button{
     margin-top: 30px;
@@ -357,6 +361,7 @@ table{
 
 #trainer-heading{
     width: 670px;
+    text-align: center;
     height: 120px;
     margin: 20px auto;
     /* border: 2px solid red; */
@@ -372,7 +377,7 @@ table{
 }
 .trainer-img{
     height: 350px;
-    width: 350px;
+    width: 100%;
     /* border: 2px solid white; */
     background-size: cover;
     margin: auto;
@@ -453,14 +458,14 @@ form{
     width:120px;
     height: 50px;
     padding: 12px 20px 12px 20px;
-    margin: 20px 378px 10px 0px;
+    margin: 20px 0px 10px 0px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 9px;
     border: none;
     color: rgba(51, 46, 46, 0.708);
     font-size: 1.1rem;
     font-weight: 500;
-    /* margin-left: 0; */
+    margin-right: 50%;
 }
 .input-form{
     height: 50px;
@@ -501,8 +506,9 @@ a{
 }
 #footer-section > div{
     /* border: 2px solid green; */
+    margin: 0 auto;
     height: 250px;
-    width: 360px;
+    width: 90%;
 }
 #footer-section > div > h1{
     height: 80px;
@@ -694,20 +700,23 @@ a{
         width: 90%;
     }
     .calculate-section{
+        margin-left: 0;
         width: 100%;
     }
     .calculate-section p{
         margin-bottom: 30px;
+        width: 100%;;
+        /* border: 2px solid red; */
     }
     .input{
         height: 36px;
-        width: 145px;
+        width: 90%;
         /* margin:10px 10px 10px 0px; */
         border-radius: 8px;
         padding-left: 10px;
     }
     #first-selection{
-        width: 155px;
+        width: 94%;
         /* border: 2px solid red; */
     }
 
@@ -738,7 +747,7 @@ a{
         width: 100%;
     }
     #option{
-        width: 101%;
+        width: 97%;
     }
 
     /* Login form design */
@@ -767,6 +776,7 @@ a{
         padding: 7px;
         margin: 15px 0px 15px 0px;
         margin-right: 10px;
+        margin-right: 20%;
         font-size: 0.9rem;
         font-weight: 500;
     }
